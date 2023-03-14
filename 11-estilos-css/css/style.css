@@ -1,0 +1,16 @@
+/* Estilos para colores */
+.color-by-name {
+    color: darkcyan;
+}
+
+.color-by-hexadecimal {
+    color: #772E25;
+}
+
+.color-by-rgb {
+    color: rgb(100, 0, 200)
+}
+
+.color-by-rgba {
+    color: rgba(53, 71, 226, 0.5)
+}

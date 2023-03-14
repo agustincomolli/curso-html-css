@@ -1,0 +1,20 @@
+h1 {
+    color: red;
+}
+
+/* Esto es un comentario en CSS */
+p {
+    color:blue;
+    font-size: 12pt;
+}
+
+/* El siguiente es un selector por id */
+#explanation {
+    color:darkcyan;
+}
+
+/* El siguiente es un selector por clase */
+.title {
+    font-size: 24pt;
+    text-transform: capitalize;
+}
