@@ -1,3 +1,7 @@
+h2 {
+    text-transform: capitalize;
+}
+
 /* Estilos para colores */
 .color-by-name {
     color: darkcyan;
@@ -13,4 +17,31 @@
 
 .color-by-rgba {
     color: rgba(53, 71, 226, 0.5)
+}
+
+.box-color {
+    background-color: cornflowerblue;
+}
+
+.box-image {
+    /* Poner de fondo una imágen */
+    background-image: url("https://i.pinimg.com/736x/8b/74/c5/8b74c586790680ed316c1979c80230e4.jpg");
+    /* Posicionar la imagen */
+    background-position: right top;
+}
+
+.box-width {
+    background-color: aquamarine;
+    width: 150px;
+}
+
+.box-height {
+    background-color: burlywood;
+    height: 200px;
+}
+
+.card {
+    border: 1px solid rgb(50, 150, 10);
+    padding: 10px 20px;
+    margin: 20px;
 }
