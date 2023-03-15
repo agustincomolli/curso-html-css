@@ -1,2 +1,1 @@
-# curso-html-css
-Curso de OpenBootcamp de HTML y CSS
+# Curso de OpenBootcamp de HTML y CSS
