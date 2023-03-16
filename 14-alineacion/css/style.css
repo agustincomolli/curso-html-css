@@ -1,0 +1,19 @@
+.caja-1, .caja-2 {
+    background-color: red;
+    /* Por defecto la disposición de los div es display: block; */
+}
+
+.section-1, .section-2 {
+    background-color: lightgreen;
+    /* Por defecto la disposición de los span es diplay: inline; */
+}
+
+.section-2 {
+    float: right;
+}
+
+.logo {
+    height: 100px;
+    /* Por defecto la disposición de las imágenes es display: inline-block;
+       que permite que se realizen cambios en el tamaño. */
+}
