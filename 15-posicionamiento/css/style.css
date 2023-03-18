@@ -5,7 +5,47 @@ div {
 }
 
 .div-relative {
+    /* Con la posición relative podemos mover los objetos. 
+       Se posiciona de acuerdo a su ubicación original
+    */
     position: relative;
-
     left: 80px;
+    margin: 10px;
+}
+
+.div-fixed {
+    /* Con la posición fixed, tiene un posicionamiento fijo respecto a la 
+       pantalla (viewport) 
+    */
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    background-color: beige;
+    z-index: 10;
+}
+
+.div-absolute {
+    /* Con la posición absoluta se fija su posición respecto a su elemento
+       padre, en este caso sería el body.
+     */
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: darkorange;
+}
+
+.div-relative.container {
+    width: 300px;
+    height: 300px;
+    background-color: aquamarine;
+}
+
+.div-sticky {
+    /* Con la posición sticky al hacer scroll modifica su posicionamiento de
+       relative a fixed.
+     */
+    position: sticky;
+    background-color: dodgerblue;
+    top: 0px;
+    z-index: 2;
 }
