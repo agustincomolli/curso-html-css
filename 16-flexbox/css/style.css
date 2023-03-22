@@ -1,0 +1,35 @@
+/* Flexbox playground:
+   https://codepen.io/enxaneta/full/adLPwv
+*/
+
+.flex {
+    background-color: yellow;
+    height: 300px;
+    display:flex;
+    flex-direction: column;
+    /* justify-content alinea el contenido en el eje X */
+    justify-content: space-around;
+    /* align-items alinea el contenido sobre el eje Y */
+    align-items: center;
+}
+
+.content-1 {
+    background-color: white;
+    /* height: 200px; */
+    width: 100px;
+    border: 1px solid blue;
+}
+
+.content-2 {
+    background-color: white;
+    /* height: 200px; */
+    width: 100px;
+    border: 1px solid blue;
+}
+
+.content-3 {
+    background-color: pink;
+    /* height: 200px; */
+    width: 100px;
+    border: 1px solid blue;
+}
